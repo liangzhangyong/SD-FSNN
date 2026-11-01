@@ -19,7 +19,7 @@ high accuracy under random sampling by:
      is exact (up to MC variance).
 
 Usage (D=1 is the primary target):
-    from swimpde.Solver.gpe_solver_sdfip import GPE_SDIFP_Solver
+    from src.Solver.gpe_solver_sdfip import GPE_SDIFP_Solver
     solver = GPE_SDIFP_Solver(
         domain=domain,        # any Domain; interior_points are used as seed only
         ansatz=ansatz,        # BasicAnsatzDecay

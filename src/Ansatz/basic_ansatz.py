@@ -3,8 +3,8 @@ from typing import Callable, Union
 from abc import ABC, abstractmethod
 
 from .ansatz import Ansatz
-# from swimpde.utils import activations, activations_x, activations_xx, parameter_samplers
-from swimpde.utils import activations, activations_x, activations_xx, activations_xxx, activations_xxxx, parameter_samplers
+# from src.utils import activations, activations_x, activations_xx, parameter_samplers
+from src.utils import activations, activations_x, activations_xx, activations_xxx, activations_xxxx, parameter_samplers
 from swimnetworks import Dense
 
 from sklearn.pipeline import Pipeline

@@ -4,8 +4,8 @@ import time
 from types import SimpleNamespace
 from dataclasses import dataclass, field
 from scipy.special import roots_hermite
-from swimpde import Domain, BasicAnsatzDecay
-from swimpde.Ansatz.basic_ansatz import BasicAnsatz
+from src import Domain, BasicAnsatzDecay
+from src.Ansatz.basic_ansatz import BasicAnsatz
 try:
     import torch
 except ImportError:
