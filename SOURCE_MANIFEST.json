@@ -1,0 +1,40 @@
+{
+  "original_files": [
+    "src/swimpde/Ansatz/ansatz.py",
+    "src/swimpde/Ansatz/basic_ansatz.py",
+    "src/swimpde/Ansatz/basic_ansatz_decay.py",
+    "src/swimpde/Domain/domain.py",
+    "src/swimpde/Domain/__init__.py",
+    "src/swimpde/utils/utils.py",
+    "src/swimpde/utils/__init__.py",
+    "src/swimpde/Solver/gpe_solver.py",
+    "src/swimpde/Solver/gpe_solver_sdfip.py"
+  ],
+  "sha256": {
+    "src/swimpde/Ansatz/ansatz.py": "ef140bbedd440098bfc392cc8142f9413c105d1e7ae55730dbcbf62ffcaf7ff9",
+    "src/swimpde/Ansatz/basic_ansatz.py": "4b6bb5c3df55500031216a4da8e2f604956833560aba41a38c97c51a6c4e16eb",
+    "src/swimpde/Ansatz/basic_ansatz_decay.py": "26dab52a3aa729d612a5412ae0ec42114759eecf1d8dd7ec51b8320bd5e61493",
+    "src/swimpde/Domain/domain.py": "48fd58593dcacca3e42b9624833310d2193fc011749b5b36f8c094c40f4ccb33",
+    "src/swimpde/Domain/__init__.py": "b17dc6df5d46703924e467e36d9edf71c6ab199486fdad6962fbab986d445187",
+    "src/swimpde/utils/utils.py": "26c99b3c4a53e414119630e6845bef338d180e0d74020ae4ca5bf884ef5e07d1",
+    "src/swimpde/utils/__init__.py": "ad7faf39bc07b4f496f6afca4b6681a05946a74e8fbacd689a236fbf20dec6af",
+    "src/swimpde/Solver/gpe_solver.py": "deb026df66adc07374460fa2c652e5dbf56ffc86ba4ef3d39ff2910d914a029a",
+    "src/swimpde/Solver/gpe_solver_sdfip.py": "ef0ef663a922545cfb354ebd33484f8ac5fb67e592e6017003c15193cde1ece3",
+    "src/swimpde/__init__.py": "12dd513a9d71eaa3e7266a95dc8f7aa7c9468a73251859367556e79d64af096e",
+    "src/swimpde/Ansatz/__init__.py": "1dc9abb82bb8a91d0b4bf3a47a60708928f9fddd19f6ab17f544c87bdac7c922",
+    "src/swimpde/Solver/__init__.py": "25104ab7c4f72242dd5f15dafb2ffea95c8a35f17e8a4dd5316da3512356ed12",
+    "src/swimpde/Solver/bcl_gpe_core.py": "7448e86813450b242114d1e604bf6aa158a1cc2f11398af658bc4ad56279e75c",
+    "requirements.txt": "e227ca4598d1ea7730f0d064613ed7fedb8fe7dcf687d817412e96d4d0a709f0",
+    "README.md": "9890f88bcb0cfc54f434136eeefe8f0f7072f20079c244a82cf05cdf1b295597"
+  },
+  "extracted_from": "examples/GPE_sdre_bcl.py",
+  "extracted_definitions": [
+    "BCL_GPE_Solver",
+    "BasicAnsatzAdapter",
+    "KrylovAnsatzDecay",
+    "RadialBasicAnsatzDecay",
+    "SeparableLowRankAnsatzDecay",
+    "build_domain",
+    "build_radial_domain"
+  ]
+}
